@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\steph\\Documents\\Eyeshot Ultimate 10 Samples\\WPF\\FemDemo\\Visual Basic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1413F21-9702-4156-BA5A-A5BD7526ED31}|FemDemo\\FemDemo.vbproj|c:\\users\\steph\\documents\\eyeshot ultimate 10 samples\\wpf\\femdemo\\visual basic\\femdemo\\mainwindow.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D1413F21-9702-4156-BA5A-A5BD7526ED31}|FemDemo\\FemDemo.vbproj|solutionrelative:femdemo\\mainwindow.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1413F21-9702-4156-BA5A-A5BD7526ED31}|FemDemo\\FemDemo.vbproj|c:\\users\\steph\\documents\\eyeshot ultimate 10 samples\\wpf\\femdemo\\visual basic\\femdemo\\numericresultswindow.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D1413F21-9702-4156-BA5A-A5BD7526ED31}|FemDemo\\FemDemo.vbproj|solutionrelative:femdemo\\numericresultswindow.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1413F21-9702-4156-BA5A-A5BD7526ED31}|FemDemo\\FemDemo.vbproj|c:\\users\\steph\\documents\\eyeshot ultimate 10 samples\\wpf\\femdemo\\visual basic\\femdemo\\draw.fem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D1413F21-9702-4156-BA5A-A5BD7526ED31}|FemDemo\\FemDemo.vbproj|solutionrelative:femdemo\\draw.fem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.vb",
+              "DocumentMoniker": "C:\\Users\\steph\\Documents\\Eyeshot Ultimate 10 Samples\\WPF\\FemDemo\\Visual Basic\\FemDemo\\MainWindow.xaml.vb",
+              "RelativeDocumentMoniker": "FemDemo\\MainWindow.xaml.vb",
+              "ToolTip": "C:\\Users\\steph\\Documents\\Eyeshot Ultimate 10 Samples\\WPF\\FemDemo\\Visual Basic\\FemDemo\\MainWindow.xaml.vb",
+              "RelativeToolTip": "FemDemo\\MainWindow.xaml.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-18T18:50:47.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NumericResultsWindow.xaml.vb",
+              "DocumentMoniker": "C:\\Users\\steph\\Documents\\Eyeshot Ultimate 10 Samples\\WPF\\FemDemo\\Visual Basic\\FemDemo\\NumericResultsWindow.xaml.vb",
+              "RelativeDocumentMoniker": "FemDemo\\NumericResultsWindow.xaml.vb",
+              "ToolTip": "C:\\Users\\steph\\Documents\\Eyeshot Ultimate 10 Samples\\WPF\\FemDemo\\Visual Basic\\FemDemo\\NumericResultsWindow.xaml.vb",
+              "RelativeToolTip": "FemDemo\\NumericResultsWindow.xaml.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-18T18:50:46.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Draw.Fem.vb",
+              "DocumentMoniker": "C:\\Users\\steph\\Documents\\Eyeshot Ultimate 10 Samples\\WPF\\FemDemo\\Visual Basic\\FemDemo\\Draw.Fem.vb",
+              "RelativeDocumentMoniker": "FemDemo\\Draw.Fem.vb",
+              "ToolTip": "C:\\Users\\steph\\Documents\\Eyeshot Ultimate 10 Samples\\WPF\\FemDemo\\Visual Basic\\FemDemo\\Draw.Fem.vb",
+              "RelativeToolTip": "FemDemo\\Draw.Fem.vb",
+              "ViewState": "AQIAAAUEAAAAAAAAAAAAABMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-18T18:50:31.646Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

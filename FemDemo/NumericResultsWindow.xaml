@@ -1,0 +1,44 @@
+﻿<Window x:Class="NumericResultsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ddds="http://schemas.devdept.com/winfx/2008/xaml/dataset"            
+        Title="Numeric Results" Height="500" Width="970">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Height" Value="24"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Margin" Value="5 3 0 0"/>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True" Margin="5 0 5 5">
+        <DockPanel DockPanel.Dock="Top">
+            <StackPanel DockPanel.Dock="Left" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Name="nodeRadioBtn" Content="Node values" IsChecked="True" Checked="viewType_CheckedChanged" Unchecked="viewType_CheckedChanged"></RadioButton>
+                    <RadioButton Name="elementRadioBtn" Content="Element values" Margin="5 0 0 0" Checked="viewType_CheckedChanged" Unchecked="viewType_CheckedChanged"></RadioButton>
+                </StackPanel>
+                <CheckBox Name="materialCheckBox" Content="Material" Margin="10 0 0 0" IsEnabled="False"/>
+                <CheckBox Name="nodeReactionsCheckBox" Content="Node reactions" Margin="5 0 0 0"/>
+                <CheckBox Name="nodeCoordCheckBox" Content="Node coordinates" Margin="5 0 0 0" IsChecked="True"/>
+            </StackPanel>
+            <Button DockPanel.Dock="Right" Margin="0 0 0 5" Name="updateButton" Content="Update" HorizontalAlignment="Right" Click="UpdateButton_OnClick"/>
+        </DockPanel>
+        <DockPanel DockPanel.Dock="Bottom" Margin="0 5 0 0">
+            <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" VerticalAlignment="Center">
+                <Button  Name="csvButton" Content="Export to CSV" Click="csvButton_OnClick"/>
+                <Button  Name="closeButton" Content="Close" Click="closeButton_Click"/>
+            </StackPanel>
+            <Label Name="totalRowLabel" DockPanel.Dock="Left" Content="Total rows:" VerticalContentAlignment="Bottom"></Label>
+        </DockPanel>
+        <ListView Name="itemsListView">
+            <ListView.View>
+                <GridView x:Name="resultsGridView"></GridView>
+            </ListView.View>
+        </ListView>
+
+
+    </DockPanel>
+</Window>

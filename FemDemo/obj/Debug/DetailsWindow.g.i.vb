@@ -12,7 +12,6 @@
 Option Strict Off
 Option Explicit On
 
-Imports devDept.DataSet
 Imports System
 Imports System.Diagnostics
 Imports System.Windows

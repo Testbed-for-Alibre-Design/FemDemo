@@ -9,7 +9,6 @@
     <RootNamespace>WpfApplication1</RootNamespace>
     <AssemblyName>FemDemo</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion><TargetFrameworkProfile />
-    
     <MyType>Custom</MyType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

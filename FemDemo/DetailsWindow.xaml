@@ -3,10 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"        
         xmlns:ddds="http://schemas.devdept.com/winfx/2008/xaml/dataset"            
         Title="DetailsWindow" Height="350" Width="320">
-  
     <DockPanel LastChildFill="True" Margin="5 0 5 5">
       <Button DockPanel.Dock="Bottom" Name="closeButton" Content="Close" Margin="0 5 0 0" Width="75" Height="24" HorizontalAlignment="Right" Click="closeButton_Click"></Button>
       <TextBox Name="contentTextBox" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" FontFamily="Courier New"/>
     </DockPanel>
-  
 </Window>

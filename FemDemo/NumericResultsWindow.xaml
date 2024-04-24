@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:ddds="http://schemas.devdept.com/winfx/2008/xaml/dataset"            
         Title="Numeric Results" Height="500" Width="970">
-
     <Window.Resources>
         <Style TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
             <Setter Property="Height" Value="24"/>
@@ -12,7 +11,6 @@
             <Setter Property="Margin" Value="5 3 0 0"/>
         </Style>
     </Window.Resources>
-
     <DockPanel LastChildFill="True" Margin="5 0 5 5">
         <DockPanel DockPanel.Dock="Top">
             <StackPanel DockPanel.Dock="Left" Orientation="Horizontal">
@@ -38,7 +36,5 @@
                 <GridView x:Name="resultsGridView"></GridView>
             </ListView.View>
         </ListView>
-
-
     </DockPanel>
 </Window>

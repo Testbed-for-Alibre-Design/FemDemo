@@ -6,23 +6,19 @@
         xmlns:ddds="http://schemas.devdept.com/winfx/2008/xaml/dataset"
         x:Class="MainWindow"        
         Title="Fem Demo" Height="Auto" Width="Auto"  FocusManager.FocusedElement="{Binding ElementName=viewportLayout1}" Closed="Window_Closed" WindowStartupLocation="CenterScreen">
-
     <Window.Resources>
-
         <Style TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
             <Setter Property="Height" Value="24"/>
             <Setter Property="Width" Value="80"/>
             <Setter Property="VerticalAlignment" Value="Top"/>
             <Setter Property="Margin" Value="5 3 0 0"/>
         </Style>
-
         <Style x:Key="ToggleButtonStyle" TargetType="{x:Type ToggleButton}" BasedOn="{StaticResource {x:Type ToggleButton}}">
             <Setter Property="Height" Value="24"/>
             <Setter Property="Width" Value="80"/>
             <Setter Property="VerticalAlignment" Value="Top"/>
             <Setter Property="Margin" Value="5 3 0 0"/>
         </Style>
-
         <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource {x:Type TextBlock}}">
             <Setter Property="Width" Value="64"/>
             <Setter Property="TextAlignment" Value="Right"/>
@@ -30,9 +26,7 @@
             <Setter Property="Foreground" Value="Black"></Setter>
             <Setter Property="Text" Value="0"></Setter>
         </Style>
-
     </Window.Resources>
-    
     <DockPanel LastChildFill="True"  Margin="5">
         <!-- StatusBar -->
         <StatusBar Name="statusStrip1" DockPanel.Dock="Bottom" Background="{x:Null}">
@@ -87,7 +81,6 @@
                             <Button x:Name="sideViewButton" Content="Side" Click="sideViewButton_OnClick"/>
                             <Button x:Name="topViewButton" Content="Top" Click="topViewButton_OnClick"/>
                             <Button x:Name="isoViewButton" Content="Iso" Click="isoViewButton_OnClick"/>
-                            
                             <Button x:Name="prevViewButton" Content="Prev. View" Click="prevViewButton_OnClick"/>
                             <Button x:Name="nextViewButton" Content="Next View" Click="nextViewButton_OnClick"/>
                             <ToggleButton x:Name="animateCameraCheckBox" Style="{StaticResource ToggleButtonStyle}" Content="Animate" Click="animateCameraCheckBox_OnClick"/>
@@ -116,7 +109,6 @@
                             </ComboBox>
                             <ToggleButton x:Name="selectButton" Style="{StaticResource ToggleButtonStyle}" Content="Select" Click="selectCheckBox_OnClick"/>
                             <Button x:Name="clearSelectionButton" Content="Clear" Click="clearSelectionButton_OnClick" />
-                            
                             <Button x:Name="invertSelectionButton" Content="Invert" Click="invertSelectionButton_OnClick" />
                             <Button x:Name="groupButton" Content="Group" Click="groupButton_OnClick"/>
                         </WrapPanel>
@@ -134,7 +126,6 @@
                             <ToggleButton x:Name="pickFaceButton" Style="{StaticResource ToggleButtonStyle}" Content="Pick Face" Click="pickFaceButton_OnClick"/>
                             <Button x:Name="areaButton" Content="Area" Click="areaButton_OnClick"/>
                             <Button x:Name="volumeButton" Content="Volume" Click="volumeButton_OnClick"/>
-                            
                             <Button x:Name="dumpButton" Content="Dump" Click="dumpButton_OnClick"/>
                             <ToggleButton x:Name="showCurveDirectionButton" Style="{StaticResource ToggleButtonStyle}" Content="Show Dir." Click="showCurveDirectionButton_OnClick"/>
                             <ToggleButton x:Name="cullingButton" Style="{StaticResource ToggleButtonStyle}" Content="Culling" Click="cullingButton_OnClick"/>
@@ -208,12 +199,10 @@
                         </StackPanel>
                     </GroupBox>
                 </StackPanel>
-
                 <!-- Object Properties -->
                 <GroupBox DockPanel.Dock="Right" Margin="5 0 0 0" Header="Object Properties">
                     <xctk:PropertyGrid DockPanel.Dock="Bottom" x:Name="propertyGrid1" Margin="0 5 0 0"  PropertyValueChanged="propertyGrid1_PropertyValueChanged" ShowSearchBox="False" ShowSortOptions="False" ShowTitle="False" ShowSummary="False" Visibility="Collapsed"/>
                 </GroupBox>
-
             </DockPanel>
             <!-- Eyeshot ViewportLayout as DockPanel's LastChild -->
             <DockPanel DockPanel.Dock="Top" LastChildFill="True">
@@ -280,5 +269,4 @@
             </DockPanel>
         </DockPanel>
     </DockPanel>
-    
 </Window>
